@@ -1,5 +1,5 @@
 const express = require("express");
-const Streak = require("../models/Streak");
+const Streak = require("../models/streaks");
 const auth = require("../middleware/authMiddleware");
 
 const router = express.Router();

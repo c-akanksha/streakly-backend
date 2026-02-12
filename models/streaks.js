@@ -21,4 +21,4 @@ const streakSchema = new mongoose.Schema(
   { timestamps: true },
 );
 
-((module.exports = mongoose), model("Streak", streakSchema));
+module.exports = mongoose.model("Streak", streakSchema);
