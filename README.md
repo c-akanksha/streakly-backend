@@ -150,8 +150,8 @@ All streak routes require JWT authentication.
 
 Get all streaks for the logged-in user.
 
-```
 Headers:
+```
 Authorization: Bearer <token>
 ```
 Response:
@@ -170,8 +170,8 @@ Response:
 
 Create a new streak.
 
-```
 Headers:
+```
 Authorization: Bearer <token>
 ```
 Request Body:
@@ -193,8 +193,8 @@ Response:
 
 Mark a streak as completed for today.
 
-```
 Headers:
+```
 Authorization: Bearer <token>
 ```
 Response:
