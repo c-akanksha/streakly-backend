@@ -10,7 +10,8 @@ router.post("/", auth, async (req, res) => {
     const streak = new Streak({
         user: req.user.id,
         title,
-        icon
+        icon,
+        type
     });
 
     await streak.save();

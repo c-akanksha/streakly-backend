@@ -160,7 +160,8 @@ Response:
   {
     "_id": "streak_id",
     "title": "Read 10 Pages",
-    icon: "Book",
+    "icon": "Book",
+    "type": "daily",
     "currentStreak": 5,
     "lastCompleted": "2026-02-13T00:00:00.000Z"
   }
@@ -179,7 +180,8 @@ Request Body:
 ```
 {
   "title": "Read 10 pages",
-  "icon": "Book"
+  "icon": "Book",
+  "type": "daily"
 }
 ```
 Response:
@@ -187,6 +189,8 @@ Response:
 {
   "_id": "streak_id",
   "title": "Read 10 pages",
+  "icon": "Book",
+  "type": "daily",
   "currentStreak": 0
 }
 ```
@@ -204,7 +208,8 @@ Response:
 {
   "_id": "streak_id",
   "title": "Read 10 pages",
-  "icon": "Book"
+  "icon": "Book",
+  "type": "daily",
   "currentStreak": 6,
   "lastCompleted": "2026-02-14T00:00:00.000Z"
 }
