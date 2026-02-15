@@ -10,6 +10,10 @@ const streakSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
+    icon: {
+      type: String,
+      requried: true,
+    },
     currentStreak: {
       type: Number,
       default: 0,
