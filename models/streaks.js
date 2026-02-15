@@ -16,7 +16,7 @@ const streakSchema = new mongoose.Schema(
     },
     type: {
       type: String,
-      enum: ["daily, weekly, monthly"],
+      enum: ['daily', 'weekly', 'monthly'],
       default: "daily",
     },
     currentStreak: {
