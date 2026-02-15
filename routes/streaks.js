@@ -5,7 +5,7 @@ const auth = require("../middleware/authMiddleware");
 const router = express.Router();
 
 router.post("/", auth, async (req, res) => {
-    const { title, icon } = req.body;
+    const { title, icon, type } = req.body;
 
     const streak = new Streak({
         user: req.user.id,
