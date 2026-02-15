@@ -177,7 +177,8 @@ Authorization: Bearer <token>
 Request Body:
 ```
 {
-  "title": "Read 10 pages"
+  "title": "Read 10 pages",
+  "icon": "Book"
 }
 ```
 Response:
@@ -202,6 +203,7 @@ Response:
 {
   "_id": "streak_id",
   "title": "Read 10 pages",
+  "icon": "Book"
   "currentStreak": 6,
   "lastCompleted": "2026-02-14T00:00:00.000Z"
 }
