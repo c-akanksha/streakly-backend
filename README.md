@@ -159,7 +159,8 @@ Response:
 [
   {
     "_id": "streak_id",
-    "title": "Drink Water",
+    "title": "Read 10 Pages",
+    icon: "Book",
     "currentStreak": 5,
     "lastCompleted": "2026-02-13T00:00:00.000Z"
   }
